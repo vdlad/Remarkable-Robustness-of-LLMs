@@ -24,38 +24,26 @@ This repository contains the codebase for the paper titled "Remarkable Robustnes
     ├── LICENSE
     ├── README.md
     ├── model_intervention.py
-    └── notebooks
+    ├── notebooks
         ├── attention_prev5.ipynb
         ├── casestudies
         ├── entropy_calculation.ipynb
         └── neuron_counter.ipynb
+    └──requirements.txt
 ```
 
 ## Modules
 
-<details closed><summary>.</summary>
-
-| File                                                                                                              | Summary                                                                                                                                                                                                                             |
-| ---                                                                                                               | ---                                                                                                                                                                                                                                 |
-| [model_intervention.py](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/model_intervention.py) | Analyzes and manipulates transformer model layers through experiments like swapping and ablation. Computes metrics and conducts interventions to study model behavior and performance. Support for data analysis and visualization. |
-
-</details>
-
-<details closed><summary>notebooks</summary>
-
-| File                                                                                                                                | Summary                                                                                                                                                                                                                                                                                                                                                  |
-| ---                                                                                                                                 | ---                                                                                                                                                                                                                                                                                                                                                      |
-| [neuron_counter.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/neuron_counter.ipynb)           | The code file in this repository serves as a critical component for managing user authentication and authorization. It focuses on providing secure access control and user session management functionalities. This code ensures that only authenticated users can access specific resources within the system, enhancing security and privacy measures. |
-| [entropy_calculation.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/entropy_calculation.ipynb) | This code file in the repository provides a critical model interface for the parent architecture, outlining the essential structure and interactions of the systems models. It serves as a foundation for defining and managing various data models within the overall software framework, ensuring consistency and coherence across the application.    |
-| [attention_prev5.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/attention_prev5.ipynb)         | This code file within the repository serves the purpose of defining the legal terms and conditions for the usage and distribution of the software. It contains the licensing information essential for understanding how the software can be utilized by others.                                                                                         |
-
-</details>
-
-<details closed><summary>notebooks.casestudies</summary>
+<details closed><summary>Repository Summary</summary>
 
 | File                                                                                                                                    | Summary                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ---                                                                                                                                     | ---                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| [subjoiner_heads.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/casestudies/subjoiner_heads.ipynb) | Code SummaryThe `model_intervention.py` file in this repository plays a crucial role in implementing interventions within the parent architecture. It enables seamless integration of custom model interventions, offering a flexible and extensible approach. The code file precisely handles the logic needed to apply interventions to the model, enhancing the overall functionality and effectiveness of the system.                                                                                                                         |
+|-----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [model_intervention.py](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/model_intervention.py)                       | Analyzes and manipulates transformer model layers through experiments like swapping and ablation. Computes metrics and conducts interventions to study model behavior and performance. Support for data analysis and visualization.                                                                                                                                                                                                                                                                          |
+| [requirements.txt](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/requirements.txt)                                 | Package requirements for the repository                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| [neuron_counter.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/neuron_counter.ipynb)               | The code file in this repository serves as a critical component for managing user authentication and authorization. It focuses on providing secure access control and user session management functionalities. This code ensures that only authenticated users can access specific resources within the system, enhancing security and privacy measures.                                                                                                                                                                                             |
+| [entropy_calculation.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/entropy_calculation.ipynb)     | This code file in the repository provides a critical model interface for the parent architecture, outlining the essential structure and interactions of the systems models. It serves as a foundation for defining and managing various data models within the overall software framework, ensuring consistency and coherence across the application.                                                                                                                                                                                                 |
+| [attention_prev5.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/attention_prev5.ipynb)             | This code file within the repository serves the purpose of defining the legal terms and conditions for the usage and distribution of the software. It contains the licensing information essential for understanding how the software can be utilized by others.                                                                                                                                                                                                                                            |
+| [subjoiner_heads.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/casestudies/subjoiner_heads.ipynb) | The `model_intervention.py` file in this repository plays a crucial role in implementing interventions within the parent architecture. It enables seamless integration of custom model interventions, offering a flexible and extensible approach. The code file precisely handles the logic needed to apply interventions to the model, enhancing the overall functionality and effectiveness of the system.                                                                                                                         |
 | [probe_neurons.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/casestudies/probe_neurons.ipynb)     | The `probe_neurons.ipynb` file in the `casestudies` directory of the repository serves as a comprehensive exploration tool for analyzing neural network behavior through probing individual neurons. It leverages libraries like Torch, NumPy, and Transformers, demonstrating how to evaluate specific neural activations for enhanced model interpretability. Through systematic probing experiments, this code file facilitates a deeper understanding of neural network decision-making processes, aiding in model refinement and validation. |
 | [find_neurons.ipynb](https://github.com/vdlad/Remarkable-Robustness-of-LLMs/blob/master/notebooks/casestudies/find_neurons.ipynb)       | This code file serves as a crucial component within the parent repositorys architecture, contributing to the core functionality of the open-source project. It fulfills a key role in providing robust security features and enhancing the overall user experience. The code achieves a critical objective within the projects scope while maintaining a streamlined and efficient design philosophy.                                                                                                                                             |
 
@@ -63,9 +51,6 @@ This repository contains the codebase for the paper titled "Remarkable Robustnes
 
 ## Getting Started
 
-**System Requirements:**
-
-* **Jupyter Notebook**: `version x.y.z`
 
 ### Installation
 
@@ -89,37 +74,3 @@ $ cd Remarkable-Robustness-of-LLMs
 $ pip install -r requirements.txt
 ```
 
-### Usage
-
-#### From `source`
-
-Run using the command below:
-
-```console
-$ jupyter nbconvert --execute notebook.ipynb
-```
-
-### Tests
-
-Run the test suite using the command below:
-
-```console
-$ pytest notebook_test.py
-```
-
-## File Descriptions
-
-Provide a description for each Python and Jupyter Notebook file below:
-
-### Python Files
-
-- **model_intervention.py**: Describe the purpose and functionality of this file.
-
-### Jupyter Notebooks
-
-- **neuron_counter.ipynb**: Describe the purpose and functionality of this notebook.
-- **entropy_calculation.ipynb**: Describe the purpose and functionality of this notebook.
-- **attention_prev5.ipynb**: Describe the purpose and functionality of this notebook.
-- **notebooks/casestudies/subjoiner_heads.ipynb**: Describe the purpose and functionality of this notebook.
-- **notebooks/casestudies/probe_neurons.ipynb**: Describe the purpose and functionality of this notebook.
-- **notebooks/casestudies/find_neurons.ipynb**: Describe the purpose and functionality of this notebook.

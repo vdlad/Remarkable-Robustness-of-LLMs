@@ -1,0 +1,10 @@
+torch
+transformers
+transformer-lens==1.18
+datasets
+pandas
+tqdm
+matplotlib
+seaborn
+numpy
+scikit-learn
