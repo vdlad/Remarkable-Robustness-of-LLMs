@@ -1,4 +1,4 @@
-# Remarkable-Robustness-of-LLMs
+# Remarkable Robustness of LLMs: Stages of Inference?
 ## Overview
 
 This repository contains the codebase for the "Remarkable Robustness of Large Language Models" paper. The project aims to investigate the robustness of large language models (LLMs) by swapping and ablation experiments. All supporting experiments in the paper, such as prediction and suppression neuron counting, entropy calculation, and attention visualization, are included in this repository. The codebase is written in Python and uses Jupyter Notebooks for data analysis and visualization.
