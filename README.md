@@ -62,7 +62,12 @@ $ pip install -r requirements.txt
 
 ## Cite Us 
 ```console
-Coming soon!
+@article{lad2024remarkable,
+  title={The Remarkable Robustness of LLMs: Stages of Inference?},
+  author={Lad, Vedang and Gurnee, Wes and Tegmark, Max},
+  journal={arXiv preprint arXiv:2406.19384},
+  year={2024}
+}
 ```
 
 
